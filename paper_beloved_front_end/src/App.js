@@ -1,10 +1,13 @@
 import React from 'react';
+import Welcome from './components/Welcome';
 import './App.css';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
     <div>
-      <p>Hello world</p>
+      <Navigation />
+      <Welcome />
     </div>
   );
 }
