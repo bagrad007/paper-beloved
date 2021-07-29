@@ -2,13 +2,13 @@ import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
+import DisplayFlowers from '../DisplayFlowers'
 
 const Welcome = () => {
     return (
-        <div>
+        <>
             <Jumbotron>
                 <Container>
-
                     <h1 className="display-3">Welcome to Paper Beloved</h1>
                     <p className="lead">Here at Paper Beloved, we worship batch cat</p>
                     <hr className="my-2" />
@@ -18,7 +18,8 @@ const Welcome = () => {
                     </p>
                 </Container>
             </Jumbotron>
-        </div>
+            <DisplayFlowers />
+        </>
     )
 }
 
